@@ -2,13 +2,24 @@
 layout: default
 ---
 
-<small>{{ page.date | date: "%-d %B %Y" }}</small>
-<h1>{{ page.title }}</h1>
+<article class="post">
+    <h1>{{ page.title }}</h1>
 
-<p class="view">by {{ page.author | default: site.author }}</p>
+    <div class="date">
+        Written on {{ page.date | date: "%B %e, %Y" }}
+    </div>
 
-{{content}}
+    {% if page.tags %} Tags:
+    {% for tag in page.tags %}
+    <a href="https://jason-adam.github.io/tags/" class="post-tag">{{ tag }}</a>
+    {% endfor %}
+    {% endif %}
 
-{% if page.tags %}
-<small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
-{% endif %}
+    <div class="entry">
+        {{ content }}
+    </div>
+
+
+    {% include disqus.html %}
+    {% include mathjax.html %}
+</article>
