@@ -19,8 +19,17 @@ avatar:
 footer-links:
   dribbble:
   email: a.iniguez21@gmail.com
+  facebook:
+  flickr:
   github: Anton1o-I
+  instagram:
   linkedin: antonio-iniguez
+  pinterest:
+  rss:
+  twitter:
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: # anything in your profile username that comes after plus.google.com/
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
