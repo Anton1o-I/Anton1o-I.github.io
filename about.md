@@ -10,7 +10,7 @@ It's about time I created a blog/website to share information about I've learned
 
 ### Resume  
 #### Data Science Experience  
-* *Lead Data Science - Myndshft from June 2018 to Present*
+* *Lead Data Scientist - Myndshft from June 2018 to Present*
 * *Graduate Assistant - University of Arizona from August 2016 to May 2018*
   
 
@@ -22,10 +22,10 @@ It's about time I created a blog/website to share information about I've learned
 
 Feel free to contact me by email or through one of the platforms listed at the bottom of every page (icons below).
 
-### Errors
-
-If you see anything that I've shared that doesn't make sense or has an error, please don't hesitate to reach out and let me know.
-
 Thanks,  
 
 Antonio I.
+
+#### Errors
+
+If you see anything that I've shared that doesn't make sense or has an error, please don't hesitate to reach out and let me know.
